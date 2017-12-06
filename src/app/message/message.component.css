@@ -1,0 +1,19 @@
+.msg-container{
+  width:100%;
+  height:50px;
+  line-height:50px;
+  margin-top: 5px;
+  border:1px solid #ccc;
+
+}
+.msg-container .photo{
+  display: inline-block;
+  width:50px;
+  height:50px;
+}
+.msg-container .text{
+  display: inline-block;
+  vertical-align: top;
+
+
+}

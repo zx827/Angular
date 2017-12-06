@@ -1,0 +1,5 @@
+
+<div class="msg-container" *ngFor="let msg of Messages" (click)="showDetail(msg.title)" >
+  <img src="../../assets/girl.png" alt="" class="photo">
+  <span class="text">{{msg.title}}</span>
+</div>
